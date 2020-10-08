@@ -1,0 +1,1 @@
+<h3>Hello User : <?= $this->session->userdata('email'); ?></h3>
