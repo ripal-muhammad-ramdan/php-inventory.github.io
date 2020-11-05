@@ -33,7 +33,7 @@ class M_register extends CI_Model
                 'protocol' => 'smtp',
                 'smtp_host' => 'ssl://smtp.gmail.com',
                 'smtp_port' => 465,
-                'smtp_user' => 'linggratis43@gmail.com',
+                'smtp_user' => 'inventorykami@gmail.com',
                 'smtp_pass' => '@00ripal00@',
                 'mailtype'  => 'html',
                 'wordwrap' => TRUE,
@@ -44,7 +44,7 @@ class M_register extends CI_Model
             $this->email->initialize($config);
             $this->email->set_newline("\r\n");
             // from email (email sender, Sender Name)
-            $this->email->from('ripalm001@gmail.com', 'RipalMuhammad'); // from email
+            $this->email->from('inventorykami@gmail.com', 'InventoryKami'); // from email
             // send to 
             $this->email->to($mail);
             // subject email
