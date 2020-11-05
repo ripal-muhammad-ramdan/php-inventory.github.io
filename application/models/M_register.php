@@ -33,7 +33,7 @@ class M_register extends CI_Model
                 'protocol' => 'smtp',
                 'smtp_host' => 'ssl://smtp.gmail.com',
                 'smtp_port' => 465,
-                'smtp_user' => 'ripalm001@gmail.com',
+                'smtp_user' => 'linggratis43@gmail.com',
                 'smtp_pass' => '@00ripal00@',
                 'mailtype'  => 'html',
                 'wordwrap' => TRUE,
